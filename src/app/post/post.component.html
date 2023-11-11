@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Name</mat-card-title>
+        <mat-card-subtitle>Description</mat-card-subtitle>
+    </mat-card-header>
+    <!--make src {{postData?.imageUrl}}
+    <img mat-card-image src="../assets/images/The-trouble-with-graphs.jpeg">
+    -->
+    <img mat-card-image src={{postData?.imageUrl}}>
+    <mat-card-content>
+        <!--Comments here-->
+        {{postData?.comment}}
+    </mat-card-content>
+    <mat-icon class="action-item" color="success1">chat_bubble_outline</mat-icon>
+    <mat-icon class="action-item" color="success2">favorite_border</mat-icon>
+    <mat-icon class="action-item" color="success3">save</mat-icon>
+</mat-card>

@@ -1,0 +1,8 @@
+.d-block{
+    font-size: 5rem;
+    border-block-width: 5rem;
+}
+.mobile-blur{
+    padding: 2rem 0;
+    position: relative;
+}

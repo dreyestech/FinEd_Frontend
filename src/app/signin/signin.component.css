@@ -1,0 +1,16 @@
+.btn-outline-success {
+    color: rgb(13, 12, 12)!important; 
+    outline: rgb(13, 12, 12) !important;
+
+} 
+.btn:active {
+    background-color: rgba(215, 230, 43, 0.905)!important;
+  }
+
+.btn:hover, .btn:active, .btn:focus{
+    background-color: rgba(215, 230, 43, 0.905)!important;
+}
+
+.btn.glow-button {
+    --box-shadow-color: rgba(215, 230, 43, 0.905)!important;
+  }
